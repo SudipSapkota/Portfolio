@@ -1,0 +1,31 @@
+.about-me {
+    padding: 2rem;
+    color: #ffffff;
+
+    .back-button {
+        background: #00bcd4;
+        color: white;
+        border: none;
+        padding: 0.8rem 1.5rem;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background: #0097a7;
+        }
+    }
+
+    .about-content {
+        max-width: 800px;
+        margin: 0 auto;
+
+        h1 {
+            font-size: 2.5rem;
+            color: #00bcd4;
+            margin-bottom: 1.5rem;
+        }
+    }
+}
